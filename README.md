@@ -1,2 +1,2 @@
 
-[Gutscheine](https://gutscheine-online.github.io/) # rabattcodes.github.io
+[Gutscheine](https://rabattcodes.github.io/) # rabattcodes.github.io
