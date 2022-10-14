@@ -26,6 +26,13 @@ if(path_parts.length > 2){
     .then(result => {
         return result.json();
     }).then(data => {
+
+        let head =  document.querySelector('head');
+        let canonical = document.createElement('link');
+        canonical.rel = 'canonical';
+        canonical.href = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        head.appendChild(canonical);
+
         let meta_title = document.querySelector('title');
         meta_title.innerText = data.store.meta.title; 
 
