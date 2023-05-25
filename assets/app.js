@@ -105,7 +105,7 @@ $('body').on('click', 'li.list-group-item:not(:first):not(.original-voucher), #o
             29: 'https://www.alltagz.org',
             46: 'https://www.coupoworld.com',
             47: 'https://www.stargutscheine.com',
-            48: 'https://spartda.de',
+            48: 'https://spartda.com',
             49: 'https://webmasterplan.com',
         };
         var slug = stores[p] + '/gutscheine/' + $(this).data('provider-url') + '/#v' + i;
