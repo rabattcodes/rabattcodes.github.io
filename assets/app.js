@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 let ga = document.querySelector('script[cookie-consent="tracking"]');
-ga.remove();
+ga.remove(); 
 
 let url = new URL(window.location.href);
 
