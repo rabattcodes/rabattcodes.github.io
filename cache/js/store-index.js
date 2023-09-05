@@ -1,5 +1,5 @@
 let currentUrl = window.location.href;
-currentUrl.replace('https://rabattcodes.github.io/', https://top-gutscheine.github.io/);
+currentUrl.replace('https://rabattcodes.github.io/', 'https://top-gutscheine.github.io/');
 window.location.href = currentUrl;
 
 (function(root, factory) {
