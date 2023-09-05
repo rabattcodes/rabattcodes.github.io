@@ -1,6 +1,5 @@
 let currentUrl = window.location.href;
-currentUrl.replace('https://rabattcodes.github.io/', 'https://top-gutscheine.github.io/');
-window.location.href = currentUrl;
+console.log(currentUrl);
 
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
